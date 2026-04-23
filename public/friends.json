@@ -1,0 +1,124 @@
+
+[
+
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "picture": "img2.png",
+    "email": "ayesha@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["university"],
+    "bio": "Met during CSE at university",
+    "goal": 14,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 2,
+    "name": "Tanvir Hasan",
+    "picture": "img1.png",
+    "email": "tanvir@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["office", "gym buddy"],
+    "bio": "Colleague from my first job",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "picture": "img4.png",
+    "email": "nusrat.@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["school"],
+    "bio": "We’ve been friends since school",
+    "goal": 10,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 4,
+    "name": "Rakib Chowdhury",
+    "picture": "img3.png",
+    "email": "rakib@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["startup", "mentor"],
+    "bio": "Met through a startup event",
+    "goal": 15,
+    "next_due_date": "2026-04-02"
+  },
+  {
+    "id": 5,
+    "name": "Mahi Akter",
+    "picture": "img9.png",
+    "email": "mahi@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["neighbour"],
+    "bio": "We grew up in the same area",
+    "goal": 10,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 6,
+    "name": "Fahim Ahmed",
+    "picture": "img6.png",
+    "email": "fahim@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["freelance"],
+    "bio": "We collaborate on freelance projects",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 7,
+    "name": "Sadia Karim",
+    "picture": "img10.png",
+    "email": "sadia@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["family friend"],
+    "bio": "Our families have known each other for years",
+    "goal": 14,
+    "next_due_date": "2026-04-06"
+  },
+  {
+    "id": 8,
+    "name": "Imran Hossain",
+    "picture": "img7.png",
+    "email": "imran@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["university"],
+    "bio": "Worked together on multiple university projects",
+    "goal": 10,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 9,
+    "name": "Farzana Islam",
+    "picture": "img13.png",
+    "email": "farzana@gmail.com",
+    "days_since_contact": 14,
+    "status": "almost due",
+    "tags": ["colleague"],
+    "bio": "We worked together on a UI/UX projec",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 10,
+    "name": "Arif Mahmud",
+    "picture": "img12.png",
+    "email": "arif@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["football"],
+    "bio": "We used to play football together every weekend",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  }
+]

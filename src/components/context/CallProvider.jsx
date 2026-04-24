@@ -4,7 +4,7 @@ export const CallContext = createContext()
 
 const CallProvider = ({ children }) => {
 
-  // 🔹 initial load from localStorage
+ 
   const [storedCall, setStoredCall] = useState(() => {
     const saved = localStorage.getItem("calls")
     return saved ? JSON.parse(saved) : []

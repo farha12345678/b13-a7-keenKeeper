@@ -1,16 +1,15 @@
-# React + Vite
+1. Name of my project: KeenKeeper
+2. A short description: A smart relationship tracker that enables users to manage friendships by setting contact goals, tracking interactions (calls, texts, video), and receiving reminders to stay connected.
+3. Technologies i used : React, Tailwind, Daisy UI, Toastify, Recharts, React Router DOM
+4. 3 key features of my project :
+1. Interaction Timeline with Filtering:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Users can view a complete timeline of their interactions (calls, texts, video) with filtering options to easily track communication history.
 
-Currently, two official plugins are available:
+2. Detailed Analytics:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Provides visual insights and statistics on calls, texts, and video interactions to help users understand their communication patterns.
 
-## React Compiler
+3. Friend Profile Management:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Each friend has a detailed profile including contact info, interaction history, goals, and status to manage relationships effectively.

@@ -1,7 +1,7 @@
 import { ImStatsDots } from "react-icons/im"
 import { IoMdTime } from "react-icons/io"
 import { IoHomeOutline } from "react-icons/io5"
-import { Link } from "react-router"
+import { Link , NavLink } from "react-router"
 
 const Navbar = () => {
   return (
@@ -42,23 +42,48 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <ul className="menu menu-horizontal hidden lg:flex text-lg text-gray-700 px-1">
-          <li>
-            <Link to="/" className="flex items-center gap-1">
-              <IoHomeOutline /> Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/timeline" className="flex items-center gap-1">
-              <IoMdTime /> Timeline
-            </Link>
-          </li>
-          <li>
-            <Link to="/stat" className="flex items-center gap-1">
-              <ImStatsDots /> Stats
-            </Link>
-          </li>
-        </ul>
+       <ul className="menu menu-horizontal hidden lg:flex text-lg text-gray-700 px-1">
+  
+  <li>
+    <NavLink
+      to="/"
+      className={({ isActive }) =>
+        `flex items-center gap-1 px-2 py-1 rounded-md ${
+          isActive ? "bg-[#244D3F] text-white" : ""
+        }`
+      }
+    >
+      <IoHomeOutline /> Home
+    </NavLink>
+  </li>
+
+  <li>
+    <NavLink
+      to="/timeline"
+      className={({ isActive }) =>
+        `flex items-center gap-1 px-2 py-1 rounded-md ${
+          isActive ? "bg-[#244D3F] text-white" : ""
+        }`
+      }
+    >
+      <IoMdTime /> Timeline
+    </NavLink>
+  </li>
+
+  <li>
+    <NavLink
+      to="/stat"
+      className={({ isActive }) =>
+        `flex items-center gap-1 px-2 py-1 rounded-md ${
+          isActive ? "bg-[#244D3F] text-white" : ""
+        }`
+      }
+    >
+      <ImStatsDots /> Stats
+    </NavLink>
+  </li>
+
+</ul>
 
       </div>
     </div>

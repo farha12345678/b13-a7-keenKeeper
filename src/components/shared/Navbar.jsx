@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm lg:px-20">
       
-      {/* LEFT */}
+      {/* left */}
       <div className="flex-1">
         <a className="text-2xl text-[#244D3F] font-normal">
           <span className="font-semibold">keen</span>Keeper
@@ -42,8 +42,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-
-        {/* 🖥️ Desktop Menu */}
         <ul className="menu menu-horizontal hidden lg:flex text-lg text-gray-700 px-1">
           <li>
             <Link to="/" className="flex items-center gap-1">

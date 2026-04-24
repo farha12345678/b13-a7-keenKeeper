@@ -20,7 +20,10 @@ const Stat = () => {
   ]
 
   return (
-    <div className="w-full h-100 my-20 mx-auto container border border-gray-50 p-4 bg-slate-100 ">
+   <div className="mx-auto container my-20">
+    <h1 className="text-5xl font-bold mb-4">Friendship Analytics</h1>
+     <div className="w-full h-100 border border-gray-50 p-10 bg-slate-100 ">
+      <h1 className="text-2xl text-[#244D3F]">By Interaction Type</h1>
   <ResponsiveContainer width="100%" height="100%">
     <PieChart>
       <Pie
@@ -36,6 +39,7 @@ const Stat = () => {
     </PieChart>
   </ResponsiveContainer>
 </div>
+   </div>
   )
 }
 export default Stat

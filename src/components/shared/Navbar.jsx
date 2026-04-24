@@ -14,10 +14,9 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* RIGHT */}
       <div className="flex-none">
 
-        {/* 🔽 Mobile Dropdown */}
+     {/* dropdown */}
         <div className="dropdown dropdown-end lg:hidden">
           <div tabIndex={0} role="button" className="btn btn-ghost text-xl">
             ☰

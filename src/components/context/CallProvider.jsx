@@ -9,9 +9,7 @@ const CallProvider = ({ children }) => {
     const saved = localStorage.getItem("calls")
     return saved ? JSON.parse(saved) : []
   })
-
-  
-  useEffect(() => {
+useEffect(() => {
     localStorage.setItem("calls", JSON.stringify(storedCall))
   }, [storedCall])
 
